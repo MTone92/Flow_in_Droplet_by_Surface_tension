@@ -30,6 +30,10 @@ A sample result is also included in this folder as ```StreamFunction_b37.8_s200_
 For calculating the velocity field in droplet, either Spherical coordinates (folder **Velocity_by_Spherical_Coordinates**) or Toroidal coordinates (folder **Velocity_by_Toroidal_Coordinates**) can be used. The patterns of surface tension considered are same as the four patterns discribe in **Streamlines**, thus, the modification for ```N2.m``` is exactly the same as in streamline calculation. Parallel computing is also implemented for velocity calculation:
 
 ### In Spherical coordinates
-The main program is ```Velocity_of_Spherical_Coordinate.m```. ```dpsid.m``` needs to be modified for nodes value to match the number of CPUs used.
+The main program is ```Velocity_of_Spherical_Coordinate.m```.
+
+```dpsid.m``` needs to be modified for *nodes* value to match the number of CPUs used.
 ### In Toroidal coordinates
-The main program is ```VelocityInToroidalCoordinates.m```. ```Ualpha1.m```, ```Ualpha2.m```, ```Ubeta1.m``` and ```Ubeta2.m``` need to be modified for nodes value to match the number of CPUs used.
+The main program is ```VelocityInToroidalCoordinates.m```.
+
+```Ualpha1.m```, ```Ualpha2.m```, ```Ubeta1.m``` and ```Ubeta2.m``` need to be modified for *nodes* value to match the number of CPUs used.
