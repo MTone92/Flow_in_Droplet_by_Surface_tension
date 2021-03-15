@@ -12,7 +12,7 @@ For calculating the stream function and streamlines, four different patterns of 
 
 ### Step
 
-<img src="Doc/Setp.png" width="300">
+<img src="Doc/Step.png" width="300">
 
 ### Concentric
 The codes in **Concentric** folder are used to find stream function field for a concentric surface tension distribution as shown below.
