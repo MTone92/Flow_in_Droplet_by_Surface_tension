@@ -1,0 +1,2 @@
+Velocity Plot Program is not included in this folder.
+However, we find the velocities in alpha and beta directions at each point, which allow us find out the velocit distribution in any other coordinates system based on coordinate coversion mathematically.
